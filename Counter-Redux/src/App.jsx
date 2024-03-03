@@ -11,7 +11,7 @@ function App() {
 
   return (
   <div className='App'>
-    <h1>Counter App</h1>
+    <h1>Counter</h1>
     <h2>{number}</h2>
     <div className= 'btns'>
       <button onClick={() => dispatch(increment())}>INCR</button>
