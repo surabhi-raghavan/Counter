@@ -16,8 +16,8 @@ function App() {
     <div className= 'btns'>
       <button onClick={() => dispatch(increment())}>INCR</button>
       <button onClick={() => dispatch(decrement())}>DECR</button>
-      <button onClick={() => dispatch(incrementByValue(10))}>INCR BY SOME VALUE</button>
-      <button onClick={() => dispatch(decrementByValue(10))}>DECR BY SOME VALUE</button>
+      <button onClick={() => dispatch(incrementByValue(10))}>INCR BY 10</button>
+      <button onClick={() => dispatch(decrementByValue(10))}>DECR BY 10</button>
     </div>
 
   </div>  
