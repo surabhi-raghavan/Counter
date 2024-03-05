@@ -13,9 +13,9 @@ function App() {
   <div className='App'>
     <h1>Counter</h1>
     <h2>{number}</h2>
-    <div className= 'btns'>
-      <button onClick={() => dispatch(increment())}>INCR</button>
-      <button onClick={() => dispatch(decrement())}>DECR</button>
+    <div className= 'button-wrapper'>
+      <button onClick={() => dispatch(increment())}>+</button>
+      <button onClick={() => dispatch(decrement())}>-</button>
       <button onClick={() => dispatch(incrementByValue(10))}>INCR BY 10</button>
       <button onClick={() => dispatch(decrementByValue(10))}>DECR BY 10</button>
     </div>

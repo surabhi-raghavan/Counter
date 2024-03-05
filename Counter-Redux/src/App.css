@@ -14,7 +14,7 @@
   gap: 10px;
 }
 
-.btns{
+.button-wrapper{
   width: 500px;
   display: grid;
   grid-template-columns: 250px 2fr;
